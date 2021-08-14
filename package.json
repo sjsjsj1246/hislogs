@@ -1,0 +1,70 @@
+{
+  "name": "zoomkoding.com",
+  "private": false,
+  "description": "A neat blog theme for developers",
+  "version": "1.1.0",
+  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "dependencies": {
+    "@fontsource/montserrat": "^4.2.2",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^2.32.3",
+    "gatsby-image": "^2.11.0",
+    "gatsby-plugin-advanced-sitemap": "^1.6.0",
+    "gatsby-plugin-dark-mode": "^1.1.2",
+    "gatsby-plugin-feed": "^2.1.0",
+    "gatsby-plugin-google-analytics": "^2.0.17",
+    "gatsby-plugin-manifest": "^2.12.0",
+    "gatsby-plugin-offline": "^3.10.2",
+    "gatsby-plugin-react-helmet": "^3.10.0",
+    "gatsby-plugin-robots-txt": "^1.5.5",
+    "gatsby-plugin-sass": "^3.2.0",
+    "gatsby-plugin-sharp": "^2.14.3",
+    "gatsby-remark-autolink-headers": "^2.11.0",
+    "gatsby-remark-copy-linked-files": "^3.0.0",
+    "gatsby-remark-images": "^4.0.0",
+    "gatsby-remark-mathjax": "^1.0.0",
+    "gatsby-remark-prismjs": "^4.0.0",
+    "gatsby-remark-smartypants": "^3.0.0",
+    "gatsby-remark-table-of-contents": "^1.0.0",
+    "gatsby-source-filesystem": "^2.11.0",
+    "gatsby-theme-material-ui": "^1.0.13",
+    "gatsby-transformer-remark": "^2.16.1",
+    "gatsby-transformer-sharp": "^2.12.0",
+    "prismjs": "^1.23.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0",
+    "react-rotating-text": "^1.4.1",
+    "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "prettier": "2.2.1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "deploy": "gatsby build && gh-pages -d public",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
+  },
+  "bugs": {
+    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
+  }
+}
