@@ -39,4 +39,4 @@ $ yarn install # npm install
 $ yarn start # npm run start
 ```
 
-4. 브라우저에 http://localhost:3000 를 입력하여 사이트에 접속 할 수 있습니다.
+4. 브라우저에 http://localhost:8000 를 입력하여 사이트에 접속 할 수 있습니다.
