@@ -13,28 +13,19 @@ const ProjectsSection = ({ projects }) => {
           index === 0 ? null : (
             <div className="project" key={index}>
               <div className="head">
-                {project.title}&nbsp;&nbsp;
-                {project.links && (
-                  <IconButtonBar
-                    links={project.links}
-                    style={{
-                      color: '#a8a8a8',
-                      fontSize: '24px',
-                    }}
-                  />
-                )}
-                <div className="headBar">
-                  {project.techStack && (
-                    <div className="tech-stack">
-                      {project.techStack.map((tech, index) => (
-                        <div key={index} className="tech">
-                          {tech}
-                        </div>
-                      ))}
-                    </div>
+                <div className="title">
+                  {project.title}&nbsp;&nbsp;
+                  {project.links && (
+                    <IconButtonBar
+                      links={project.links}
+                      style={{
+                        color: '#a8a8a8',
+                        fontSize: '24px',
+                      }}
+                    />
                   )}
-                  <div className="date">{project.date}</div>
                 </div>
+                <div className="date">{project.date}</div>
               </div>
               <div className="body">
                 <div className="thumbnail-wrapper">
@@ -45,6 +36,15 @@ const ProjectsSection = ({ projects }) => {
                   />
                 </div>
                 <div className="content">
+                  {project.techStack && (
+                    <div className="tech-stack">
+                      {project.techStack.map((tech, index) => (
+                        <div key={index} className="tech">
+                          {tech}
+                        </div>
+                      ))}
+                    </div>
+                  )}
                   <div className="description">{project.description}</div>
                 </div>
               </div>
