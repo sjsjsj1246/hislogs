@@ -2,7 +2,7 @@ module.exports = {
   title: `hislogs.com`,
   description: `황인서의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `http://localhost:8000/`,
+  siteUrl: `https://hislogs.com`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
