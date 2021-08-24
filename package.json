@@ -1,9 +1,9 @@
 {
-  "name": "zoomkoding.com",
+  "name": "hislogs",
   "private": false,
-  "description": "A neat blog theme for developers",
-  "version": "1.1.0",
-  "author": "zoomkoding <zoomkoding@gmail.com>",
+  "description": "hislogs",
+  "version": "1.0.0",
+  "author": "sjsjsj1246 <sjsjsj1246@gmail.com>",
   "dependencies": {
     "@fontsource/montserrat": "^4.2.2",
     "@material-ui/core": "^4.11.3",
@@ -62,9 +62,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog"
+    "url": "https://github.com/sjsjsj1246/hislogs"
   },
   "bugs": {
-    "url": "https://github.com/zoomkoding/zoomkoding-gatsby-blog/issues"
+    "url": "https://github.com/sjsjsj1246/hislogs/issues"
   }
 }
