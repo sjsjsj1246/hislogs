@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
         siteMetadata {
           title
           author {
-            name
+            nickname
             social {
               github
             }
@@ -35,7 +35,7 @@ const Layout = ({ children }) => {
       <PageHeader siteTitle={title || `Title`} />
       <main>{children}</main>
       <PageFooter
-        author={author.name || `Author`}
+        author={author.nickname || `Author`}
         githubUrl={author.social?.github || `https://www.github.com`}
       />
     </div>

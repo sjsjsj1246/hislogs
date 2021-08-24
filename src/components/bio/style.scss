@@ -75,8 +75,6 @@ strong {
             }
           }
         }
-
-
       }
 
       &.english {
@@ -113,6 +111,7 @@ strong {
     .thumbnail {
       display: none;
       width: 250px;
+      border-radius: 50%;
 
       @include md {
         display: block;
