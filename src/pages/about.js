@@ -56,6 +56,7 @@ export const pageQuery = graphql`
 
           projects {
             title
+            date
             description
             techStack
             thumbnailUrl

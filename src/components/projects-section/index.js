@@ -23,6 +23,18 @@ const ProjectsSection = ({ projects }) => {
                     }}
                   />
                 )}
+                <div className="headBar">
+                  {project.techStack && (
+                    <div className="tech-stack">
+                      {project.techStack.map((tech, index) => (
+                        <div key={index} className="tech">
+                          {tech}
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                  <div className="date">{project.date}</div>
+                </div>
               </div>
               <div className="body">
                 <div className="thumbnail-wrapper">
@@ -33,15 +45,6 @@ const ProjectsSection = ({ projects }) => {
                   />
                 </div>
                 <div className="content">
-                  {project.techStack && (
-                    <div className="tech-stack">
-                      {project.techStack.map((tech, index) => (
-                        <div key={index} className="tech">
-                          {tech}
-                        </div>
-                      ))}
-                    </div>
-                  )}
                   <div className="description">{project.description}</div>
                 </div>
               </div>
