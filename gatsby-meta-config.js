@@ -2,7 +2,7 @@ module.exports = {
   title: `hislogs.com`,
   description: `황인서의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
-  siteUrl: `https://hislogs.com`,
+  siteUrl: `https://hislogs.com/`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
@@ -16,7 +16,7 @@ module.exports = {
     bio: {
       role: `개발자`,
       description: ['세상에 가치를 더하는', '사회에 선한 영향력을 주는'],
-      thumbnail: 'profile.jpeg', // Path to the image in the 'asset' folder
+      thumbnail: 'profile.png', // Path to the image in the 'asset' folder
     },
     social: {
       github: `https://github.com/sjsjsj1246`,
