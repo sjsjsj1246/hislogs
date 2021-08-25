@@ -9,7 +9,7 @@ module.exports = {
       repo: `sjsjsj1246/hislogs`,
     },
   },
-  ga: '0', // Google Analytics Tracking ID
+  ga: 'G-GJM8JG9GK5', // Google Analytics Tracking ID
   author: {
     name: `황인서`,
     nickname: `sjsjsj1246`,

@@ -16,6 +16,14 @@ module.exports = {
     `gatsby-theme-material-ui`,
     `gatsby-transformer-sharp`,
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: metaConfig.ga,
+        head: false,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `assets`,
