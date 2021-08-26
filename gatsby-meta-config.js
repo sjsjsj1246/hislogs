@@ -3,7 +3,7 @@ module.exports = {
   description: `황인서의 개발일기`,
   language: `ko`, // `ko`, `en` => currently support versions for Korean and English
   siteUrl: `https://hislogs.com/`,
-  ogImage: `/og-image.png`, // Path to your in the 'static' folder
+  ogImage: `/ogImage.png`, // Path to your in the 'static' folder
   comments: {
     utterances: {
       repo: `sjsjsj1246/hislogs`,
