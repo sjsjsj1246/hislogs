@@ -1,57 +1,53 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
+import { Link, StaticQuery, graphql } from 'gatsby';
 import React from 'react';
-import { ThemeToggler } from 'gatsby-plugin-dark-mode';
-import { Switch } from '@material-ui/core';
+import Post from '../../models/post';
+import PostSearch from '../post-search';
 import './style.scss';
 
-const PageHeader = ({ siteTitle }) => {
+function PageHeader({ siteTitle }) {
   return (
-    <ThemeToggler>
-      {({ theme, toggleTheme }) => {
-        // Don't render anything at compile time. Deferring rendering until we
-        // know which theme to use on the client avoids incorrect initial
-        // state being displayed.
-        if (theme == null) {
-          return null;
+    <StaticQuery
+      query={graphql`
+        query SearchIndexQuery {
+          allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+            edges {
+              node {
+                frontmatter {
+                  title
+                  categories
+                }
+                fields {
+                  slug
+                }
+              }
+            }
+          }
         }
-        return (
-          <header className="page-header-wrapper">
-            <div className="page-header">
-              <div className="front-section">
-                <Link className="link" to="/">
-                  {siteTitle}
-                </Link>
-              </div>
-              <div className="trailing-section">
-                <Link className="link" to="/about">
-                  about
-                </Link>
-                <Link className="link" to="/posts">
-                  posts
-                </Link>
-                <Switch
-                  className="dark-mode-switch"
-                  size="medium"
-                  color="default"
-                  checked={theme === 'dark'}
-                  onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
-                />
-              </div>
+      `}
+      render={(data) => (
+        <header className="page-header-wrapper">
+          <div className="page-header">
+            <div className="front-section">
+              <Link className="link" to="/">
+                {siteTitle}
+              </Link>
             </div>
-          </header>
-        );
-      }}
-    </ThemeToggler>
+            <div className="trailing-section">
+              <Link className="link" to="/about">
+                about
+              </Link>
+              <Link className="link" to="/posts">
+                posts
+              </Link>
+              <PostSearch
+                posts={data.allMarkdownRemark.edges.map(({ node }) => new Post(node, true))}
+              />
+            </div>
+          </div>
+        </header>
+      )}
+    />
   );
-};
-
-PageHeader.propTypes = {
-  siteTitle: PropTypes.string,
-};
-
-PageHeader.defaultProps = {
-  siteTitle: ``,
-};
+}
 
 export default PageHeader;

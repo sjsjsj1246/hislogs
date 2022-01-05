@@ -1,0 +1,23 @@
+.post-card-column-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+
+  .post-card-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .post-card-wrapper {
+      margin-bottom: 10px;
+    }
+
+    .more-post-card-button {
+      height: 40px;
+      font-weight: 500;
+      font-size: 15px;
+      background-color: var(--button-background-color);
+    }
+  }
+}
