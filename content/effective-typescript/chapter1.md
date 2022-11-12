@@ -1,7 +1,7 @@
 ---
 emoji: ✍️
 title: 'Effective Typescript: 1. 타입스크립트 알아보기'
-date: '2022-01-04 18:30:00'
+date: '2022-01-04'
 author: sjsjsj1246
 tags: Typescript
 categories: Language

@@ -1,7 +1,7 @@
 ---
 emoji: 📙
 title: 'Programming Language Pragmatics: 1. Introduction'
-date: '2022-01-14 18:30:00'
+date: '2022-01-14'
 author: sjsjsj1246
 tags: programming language Theory
 categories: 독서

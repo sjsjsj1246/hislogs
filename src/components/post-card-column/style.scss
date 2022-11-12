@@ -3,7 +3,6 @@
   justify-content: center;
   width: 100%;
 
-
   .post-card-column {
     display: flex;
     flex-direction: column;
@@ -17,6 +16,7 @@
       height: 40px;
       font-weight: 500;
       font-size: 15px;
+      color: var(--tab-hover-text-color);
       background-color: var(--button-background-color);
     }
   }
