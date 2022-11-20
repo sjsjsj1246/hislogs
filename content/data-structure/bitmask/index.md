@@ -1,7 +1,7 @@
 ---
 emoji: 🤿
 title: '비트마스크'
-date: '2021-10-15 19:00:00'
+date: '2021-10-15'
 author: sjsjsj1246
 tags: 자료구조
 categories: 자료구조
