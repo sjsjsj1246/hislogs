@@ -9,7 +9,7 @@
     "@mui/material": "^5.1.0",
     "gatsby": "^4.9.3",
     "gatsby-plugin-advanced-sitemap": "^2.0.0",
-    "gatsby-plugin-google-analytics": "^4.9.0",
+    "gatsby-plugin-gtag": "^1.0.13",
     "gatsby-plugin-image": "^2.9.1",
     "gatsby-plugin-manifest": "^4.9.1",
     "gatsby-plugin-offline": "^5.9.1",
