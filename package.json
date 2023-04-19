@@ -2,8 +2,16 @@
   "name": "hislogs.com",
   "private": false,
   "description": "blog",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "author": "sjsjsj1246 <sjsjsj1246@gmail.com>",
+  "scripts": {
+    "build": "gatsby clean && gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -38,26 +46,12 @@
     "sass": "^1.43.4",
     "typeface-montserrat": "^1.1.13"
   },
-  "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "prettier": "2.2.1"
-  },
   "keywords": [
     "gatsby",
     "gatsby-plugin",
     "gatsby-theme"
   ],
   "license": "0BSD",
-  "scripts": {
-    "build": "gatsby clean && gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "deploy": "gatsby clean && gatsby build && gh-pages -d public",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/sjsjsj1246/hislogs"
