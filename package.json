@@ -5,6 +5,8 @@
   "version": "3.0.0",
   "author": "sjsjsj1246 <sjsjsj1246@gmail.com>",
   "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.1.0",
     "@mui/material": "^5.1.0",
     "gatsby": "^4.9.3",
@@ -31,6 +33,7 @@
     "prismjs": "^1.24.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "react-rotating-text": "^1.4.1",
     "sass": "^1.43.4",
     "typeface-montserrat": "^1.1.13"
