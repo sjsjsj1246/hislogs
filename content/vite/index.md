@@ -7,6 +7,12 @@ tags: React
 categories: React
 ---
 
+Vite라는 요즘 핫한 빌드 도구를 프로젝트에 적용해보고 싶었습니다.
+
+생각보다 간편하게 바로 적용할 수 있더군요!
+
+https://vitejs-kr.github.io/guide/
+
 다음과 같은 명령어로 바로 프로젝트를 생성할 수 있습니다.
 
 ```bash
@@ -87,7 +93,3 @@ build시간이 말도안되게 빠릅니다.
 그리고 CRA에 대해 다음 자료를 읽어보시면 좋을 것 같습니다.
 
 [(번역) ‘Create React App 권장을 Vite로 대체’ PR 대한 Dan Abramov의 답변](https://junghan92.medium.com/번역-create-react-app-권장을-vite로-대체-pr-대한-dan-abramov의-답변-3050b5678ac8)
-
-```toc
-
-```
