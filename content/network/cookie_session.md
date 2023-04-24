@@ -156,3 +156,7 @@ MDN Cookie: [https://developer.mozilla.org/ko/docs/Web/HTTP/Cookies](https://dev
 ### 참고자료
 
 MDN-HTTP 세션: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Session](https://developer.mozilla.org/en-US/docs/Web/HTTP/Session)
+
+```toc
+
+```

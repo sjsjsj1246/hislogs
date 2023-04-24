@@ -87,3 +87,7 @@ build시간이 말도안되게 빠릅니다.
 그리고 CRA에 대해 다음 자료를 읽어보시면 좋을 것 같습니다.
 
 [(번역) ‘Create React App 권장을 Vite로 대체’ PR 대한 Dan Abramov의 답변](https://junghan92.medium.com/번역-create-react-app-권장을-vite로-대체-pr-대한-dan-abramov의-답변-3050b5678ac8)
+
+```toc
+
+```
