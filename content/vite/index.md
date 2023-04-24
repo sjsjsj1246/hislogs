@@ -19,7 +19,7 @@ npm create vite 프로젝트명
 
 ![Untitled](./Untitled.png)
 
-![Untitled](./Untitled%201.png)
+![Untitled](./Untitled1.png)
 
 원하는 템플릿 선택하시면 되겠습니다.
 
@@ -78,7 +78,7 @@ swc를 사용하는 플러그인이 적용된 것을 볼 수 있습니다.
 
 build시간이 말도안되게 빠릅니다.
 
-![Untitled](./Untitled%202.png)
+![Untitled](./Untitled2.png)
 
 이제 create-react-app은 놔줘야 할 떄가 된 것 같습니다
 
