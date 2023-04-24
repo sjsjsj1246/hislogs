@@ -1,5 +1,5 @@
 ---
-emoji: 🍪
+emoji: ⚡️
 title: 'Vite 사용기 (create-react-app의 시대는 끝났다)'
 date: '2023-04-24'
 author: sjsjsj1246
