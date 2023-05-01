@@ -1,5 +1,5 @@
 ---
-emoji: 🍪
+emoji: 🤔
 title: 'CORS란 무엇인가? (그만 괴롭혀..)'
 date: '2023-05-01'
 author: sjsjsj1246
